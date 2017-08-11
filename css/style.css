@@ -219,18 +219,8 @@
 }
 
 @media (min-width: 400px) and (max-width: 991px)  {
-    .footer h4,a, h5 {
+    .footer h4,a,h5 {
         text-align: center;
-    }
-    .logo-sml {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media (min-width: 400px) and (max-width: 991px)  {
-    .footer {
-        padding-bottom: 30%;
     }
 }
 
