@@ -1,7 +1,7 @@
 /*FIRST SECTION*/
     .first {
         width: 100%;
-        height: 600px;
+        height: 500px;
         top:0px;
         background-image: url('../images/background.png');
     }
@@ -24,6 +24,15 @@
     .first a {
         color: #fff;
         font-size:1.5em;
+    }
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: rgba(178, 210, 52, 1);
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-size: 14px;
+        color: white;
     }
 
     .top-bar {
@@ -76,7 +85,7 @@
     .active-users {
         background: #f9f9f9;
         width: 100%;
-        padding-bottom: 25%;
+        padding-bottom: 5%;
         top:0px;
         opacity: 100%;
         z-index: -1;
@@ -98,15 +107,16 @@
         opacity: 100%;
         z-index: -1;
         margin: 3%;
+        
     }
 
     .our-events h2 {
         margin-top: 50px;
     }
 
-    .see_more a {
+    .see_more a h4 {
         color: lightgrey;
-        text-align: center;
+        text-align: center !important;
     }
 
     .conf-logo-container {
@@ -118,10 +128,16 @@
         width: inherit;
     }
 
+    .conf-logo-container h5 {
+        color:lightgray;
+    }
+
     .our-events h5 {
         text-align: center;
         /* margin-top: 20px; */
         color: lightgrey;
+        text-align: left;
+        
     }
 
 /*ICONS*/
@@ -158,7 +174,8 @@
 
 /*ADVERT SECTION*/
     .advert {
-        background: #f9f9f9;
+        background: rgba(178, 210, 52, 1);
+        background-image: url('../images/advert.png');
         padding-bottom: 1%;
     }
 
@@ -167,7 +184,7 @@
     }
 
     .button {
-        background: #50abf1;
+        background: #b36fad;
         height: 40px;
         width: 180px;
         border-radius: 60px;
@@ -200,7 +217,7 @@
 
 /*FOOTER SECTION*/
     .footer {
-        background: #50abf1;
+        background: #b2d234;
         color: #fff;
         width: 100%;
         text-align: center;
@@ -289,7 +306,8 @@
 }
 
 .blue_title {
-    color: #50abf1;
+    color: #b2d234;
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
